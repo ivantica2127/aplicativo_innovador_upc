@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class SaludoController {
     @GetMapping(value = "saludo")
     public String saludo(){
-        return "Esto es mi endpoint final de mi proyecto innovador UPC";
+        return "Esto es mi endpoint final de mi proyecto innovador UPC, Primera Versión";
     }
 }
